@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="\css\history.css" />
+  <title>Doctime - History Konsultasi</title>
+</head>
+
+<body>
+  <section id="HOME">
+    <div class="container">
+      <!-- Navigation bar start -->
+      <div class="navwrapper">
+        <div class="nav">
+          <div class="logo">
+            <a href="#">
+              <img src="\gambar\Doctime_Logo (1).png" alt="DocTime Image">
+            </a>
+          </div>
+          <ul>
+            <li><a href="homepage.html" >Home</a></li>
+            <li><a href="homepage.html">Artikel</a></li>
+            <li><a href="#">DocHistory</a></li>
+            <li><a href="schedule.html">DocSchedule</a></li>
+            <li><a href="chat.html">DocChat</a></li>
+          </ul>
+        </div>
+      </div>
+        <!-- Navigation bar end -->
+      </div>
+      <!-- Header start -->
+      <div class="header">
+        <h1>History Konsultasi</h1>
+      </div>
+      <!-- Header end -->
+
+      <!-- Main content start -->
+      <div class="main-content">
+        <!-- History content start -->
+        <div class="history-content">
+          <div class="history-item">
+            <h2>Konsultasi dengan Dr. Andi</h2>
+            <p><strong>Tanggal:</strong> 10 Juni 2024</p>
+            <p><strong>Topik:</strong> Kesehatan Jantung</p>
+            <p><strong>Catatan:</strong> Disarankan untuk rutin berolahraga dan mengurangi konsumsi makanan berlemak.</p>
+          </div>
+          <div class="history-item">
+            <h2>Konsultasi dengan Dr. Budi</h2>
+            <p><strong>Tanggal:</strong> 15 Mei 2024</p>
+            <p><strong>Topik:</strong> Kesehatan Mata</p>
+            <p><strong>Catatan:</strong> Penggunaan kacamata disarankan dan menjaga jarak pandang saat membaca.</p>
+          </div>
+          <div class="history-item">
+            <h2>Konsultasi dengan Dr. Citra</h2>
+            <p><strong>Tanggal:</strong> 20 April 2024</p>
+            <p><strong>Topik:</strong> Gizi dan Nutrisi</p>
+            <p><strong>Catatan:</strong> Meningkatkan asupan sayuran dan buah-buahan.</p>
+          </div>
+          <div class="history-item additional-history" style="display: none;">
+            <h2>Konsultasi dengan Dr. Deni</h2>
+            <p><strong>Tanggal:</strong> 5 Maret 2024</p>
+            <p><strong>Topik:</strong> Kesehatan Kulit</p>
+            <p><strong>Catatan:</strong> Menggunakan tabir surya setiap hari.</p>
+          </div>
+          <div class="history-item additional-history" style="display: none;">
+            <h2>Konsultasi dengan Dr. Eliza</h2>
+            <p><strong>Tanggal:</strong> 18 Februari 2024</p>
+            <p><strong>Topik:</strong> Kesehatan Gigi</p>
+            <p><strong>Catatan:</strong> Membersihkan gigi dengan benang setiap hari.</p>
+          </div>
+          <!-- Tambahkan lebih banyak item riwayat konsultasi di sini -->
+          <a href="#" id="toggle-history" onclick="toggleVisibility('history')">Lihat Semua</a>
+        </div>
+        <!-- History content end -->
+
+        <!-- Inbox content start -->
+        <div class="inbox-content" id="inbox">
+          <h2>Inbox <a href="#inbox" onclick="showInbox()" class="inbox-icon">📩</a></h2>
+          <div class="inbox-item">
+            <p><strong>Pesan dari Dr. Andi:</strong> Hasil lab terbaru Anda sudah keluar, silakan cek di portal.</p>
+            <p><strong>Tanggal:</strong> 12 Juni 2024</p>
+          </div>
+          <div class="inbox-item">
+            <p><strong>Pesan dari Dr. Budi:</strong> Apakah ada keluhan setelah penggunaan kacamata baru?</p>
+            <p><strong>Tanggal:</strong> 17 Mei 2024</p>
+          </div>
+          <div class="inbox-item">
+            <p><strong>Pesan dari Dr. Citra:</strong> Jangan lupa untuk mencatat pola makan Anda.</p>
+            <p><strong>Tanggal:</strong> 22 April 2024</p>
+          </div>
+          <div class="inbox-item additional-inbox" style="display: none;">
+            <p><strong>Pesan dari Dr. Deni:</strong> Perhatikan perubahan pada kulit Anda.</p>
+            <p><strong>Tanggal:</strong> 7 Maret 2024</p>
+          </div>
+          <div class="inbox-item additional-inbox" style="display: none;">
+            <p><strong>Pesan dari Dr. Eliza:</strong> Jadwalkan pembersihan gigi rutin.</p>
+            <p><strong>Tanggal:</strong> 20 Februari 2024</p>
+          </div>
+          <!-- Tambahkan lebih banyak item pesan di sini -->
+          <a href="#" id="toggle-inbox" onclick="toggleVisibility('inbox')">Lihat Semua</a>
+        </div>
+        <!-- Inbox content end -->
+      </div>
+      <!-- Main content end -->
+
+    </div>
+  </section>
+  <script>
+    function showInbox() {
+      document.getElementById('inbox').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function toggleVisibility(section) {
+      const additionalItems = document.querySelectorAll(.${section}-item.additional-${section});
+      const toggleLink = document.getElementById(toggle-${section});
+
+      if (toggleLink.textContent === 'Lihat Semua') {
+        additionalItems.forEach(item => item.style.display = 'block');
+        toggleLink.textContent = 'Lihat Lebih Sedikit';
+      } else {
+        additionalItems.forEach(item => item.style.display = 'none');
+        toggleLink.textContent = 'Lihat Semua';
+      }
+    }
+  </script>
+</body>
+
+</html>

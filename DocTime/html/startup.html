@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="\css\landingstyle.css" />
+    <title>Doctime - Template HTML Basic</title>
+  </head>
+  <body>
+    <section id="HOME">
+      <div class="container">
+        <!-- Navigation bar start -->
+        <div class="navwrapper">
+          <div class="nav">
+            <div class="logo">
+              <a href="#">
+                <img src="\gambar\Doctime_Logo (1).png" alt="DocTime Image">
+              </a>
+            </div>
+            <ul>
+              <li><a href="homepage.html" >Home</a></li>
+              <li><a href="homepage.html">Artikel</a></li>
+              <li><a href="#">DocHistory</a></li>
+              <li><a href="schedule.html">DocSchedule</a></li>
+              <li><a href="chat.html">DocChat</a></li>
+            </ul>
+          </div>
+          <!--Navigation bar end-->
+          <p class="salam">Halo, selamat datang!!!</p>
+          <div class="header">
+            <h1>Atasi masalah kesehatan</h1>
+          </div>
+          <h1 class="h1cepat">dengan cepat</h1>
+        </div>
+        <div class="teks">
+          <p>Konsultasi dengan dokter, membuat jadwal, informasi kesehatan</p>
+          <p class="pverif">terverifikasi langsung. Semua akan kami tangani</p>
+          
+        </div>
+        <div class="daftar">
+          <a href="signup.html"><p>Daftar</p></a>
+        </div>
+        <div class="login">
+          <a href="#">Login</a>
+      </div>
+      <div class="img">
+            <img src="\gambar\_0039.png" alt="DocTime Image">
+            <img class="chart" src="\gambar\Chart_perspective_matte_s 1.png" alt="">
+            <img class="message" src="\gambar\Message_perspective_matte_s 1.png" alt="">
+            <img class="settings" src="\gambar\Settings_perspective_matte_s 1.png" alt="">
+          </div> 
+        </div>
+          <div class="popup">
+          <div class="popup-content">
+            <img src="\gambar\Doctime_Logo (1).png" alt="DocTime Image">
+              <span class="close">&times;</span>
+              <input type="text" placeholder="Username">
+              <input type="password" placeholder="Password">
+              <a href="homepage.html" class="login-button">Login</a>
+          </div>
+      </div>         
+        <script>
+        document.querySelector(".login a").addEventListener("click", function(event){
+            event.preventDefault();
+    
+            document.querySelector(".popup").style.display = "block";
+        });
+    
+        document.querySelector(".close").addEventListener("click", function(){
+            document.querySelector(".popup").style.display = "none";
+        });
+    </script>
+      </div>
+    </section>
+  </body>
+</html>
