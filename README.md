@@ -32,11 +32,11 @@ Cukup buka file landingpage.html atau file HTML lainnya langsung di browser Anda
 
 📂 Struktur Folder
 .
-├── landingpage.html      # Halaman awal untuk pengguna baru
-├── landingstyle.css      # Styling untuk halaman sambutan
-├── homepage.html         # Dasbor utama setelah login
-├── homestyle.css         # Styling untuk dasbor
-├── docschedule.html      # Halaman untuk membuat jadwal
-├── chat.html             # Halaman untuk chat dengan dokter
-├── chatstyles.css        # Styling untuk halaman chat
-└── README.md             # Dokumentasi ini
+landingpage.html      # Halaman awal untuk pengguna baru
+landingstyle.css      # Styling untuk halaman sambutan
+homepage.html         # Dasbor utama setelah login
+homestyle.css         # Styling untuk dasbor
+docschedule.html      # Halaman untuk membuat jadwal
+chat.html             # Halaman untuk chat dengan dokter
+chatstyles.css        # Styling untuk halaman chat
+README.md             # Dokumentasi ini
