@@ -1,46 +1,42 @@
 🩺 DocTime: Platform Layanan Kesehatan Digital
-DocTime adalah sebuah prototipe platform layanan kesehatan berbasis web yang dirancang untuk menjembatani kesenjangan antara pasien dan dokter. Proyek ini menyediakan solusi informatif dan responsif untuk konsultasi, penjadwalan, dan pencarian informasi kesehatan yang terverifikasi.
+Proyek ini adalah implementasi prototipe antarmuka (frontend) untuk platform layanan kesehatan berbasis web. Tujuannya adalah untuk menyediakan solusi yang mudah digunakan bagi pengguna untuk mencari dokter, membuat jadwal konsultasi, dan mengakses informasi kesehatan.
 
-✨ Fitur Utama
-Proyek ini dibangun dengan beberapa halaman inti yang masing-masing melayani fungsi spesifik:
+📝 Deskripsi Proyek
+Sistem ini dirancang sebagai aplikasi web statis yang mensimulasikan alur kerja platform kesehatan digital. Pengguna dapat menavigasi melalui halaman sambutan, melihat dasbor utama, mencari dokter berdasarkan spesialisasi, dan melihat antarmuka untuk penjadwalan serta konsultasi via chat.
 
-🏠 Halaman Sambutan (landingpage.html): Halaman penyambut yang menarik bagi pengguna baru, memberikan gambaran umum tentang layanan dan menyediakan opsi untuk mendaftar atau masuk.
+🚀 Fitur Utama
+Antarmuka web yang bersih dan intuitif untuk navigasi antar halaman.
 
-🌐 Beranda (homepage.html): Dasbor utama setelah pengguna masuk. Menampilkan artikel kesehatan terkini dan menyediakan navigasi mudah ke fitur-fitur utama lainnya.
+Fitur pencarian dokter dengan opsi penyortiran dan filter.
 
-🗓️ Penjadwalan Dokter (docschedule.html): Memungkinkan pengguna untuk mencari dokter berdasarkan spesialisasi, memfilter hasil, dan membuat janji temu dengan cepat.
+Halaman khusus untuk penjadwalan janji temu dan simulasi obrolan (chat).
 
-💬 Obrolan dengan Dokter (chat.html): Fitur untuk mencari dokter yang tersedia dan memulai sesi konsultasi langsung melalui obrolan teks.
+Desain yang informatif dengan penekanan pada kemudahan akses informasi.
 
-🚀 Teknologi yang Digunakan
-Proyek ini sepenuhnya dibangun menggunakan teknologi front-end fundamental:
+🛠️ Teknologi yang Digunakan
+Frontend: HTML5, CSS3
 
-HTML5: Digunakan untuk menyusun struktur dan konten setiap halaman web. Tag yang digunakan termasuk <div> untuk layout, <a> untuk navigasi, dan <p> untuk teks.
+Prinsip Desain: Flexbox untuk layout, Gradien, Desain Responsif
 
-CSS3: Bertanggung jawab untuk seluruh aspek visual, termasuk layout, warna, font, dan desain responsif. Menggunakan Flexbox untuk penataan elemen dan gradien linear untuk latar belakang.
+⚙️ Cara Menjalankan Proyek
+Clone repositori ini:
 
-📂 Struktur File
+git clone https://github.com/your-username/DocTime.git
+cd DocTime
+
+Buka Aplikasi Web:
+
+Proyek ini adalah web statis, tidak memerlukan server backend.
+
+Cukup buka file landingpage.html atau file HTML lainnya langsung di browser Anda.
+
+📂 Struktur Folder
 .
 ├── landingpage.html      # Halaman awal untuk pengguna baru
 ├── landingstyle.css      # Styling untuk halaman sambutan
 ├── homepage.html         # Dasbor utama setelah login
 ├── homestyle.css         # Styling untuk dasbor
 ├── docschedule.html      # Halaman untuk membuat jadwal
-├── schedule.css          # (diperkirakan) Styling untuk halaman jadwal
 ├── chat.html             # Halaman untuk chat dengan dokter
 ├── chatstyles.css        # Styling untuk halaman chat
-└── README.md             # Anda sedang membacanya
-
-🛠️ Cara Menjalankan Proyek
-Anda tidak memerlukan server atau dependensi yang rumit untuk menjalankan proyek ini. Cukup ikuti langkah-langkah berikut:
-
-Clone repositori ini:
-
-git clone https://github.com/your-username/DocTime.git
-
-Navigasi ke direktori proyek:
-
-cd DocTime
-
-Buka file HTML di browser:
-Cukup klik dua kali pada salah satu file .html (misalnya, landingpage.html) untuk membukanya di browser web default Anda.
+└── README.md             # Dokumentasi ini
