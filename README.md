@@ -91,7 +91,6 @@ landingpage.html
 ## 🎨 **Prinsip Desain**
 
 * **Konsistensi Visual:** Warna lembut dan gradien untuk memberikan nuansa profesional.
-* **Responsif:** Tampilan menyesuaikan dengan layar perangkat.
 * **User-Centered:** Fokus pada kemudahan navigasi dan akses informasi.
 * **Clean Layout:** Menggunakan *white space* dan *hierarchy typography* agar konten mudah dibaca.
 
