@@ -1,42 +1,106 @@
-🩺 DocTime: Platform Layanan Kesehatan Digital
-Proyek ini adalah implementasi prototipe antarmuka (frontend) untuk platform layanan kesehatan berbasis web. Tujuannya adalah untuk menyediakan solusi yang mudah digunakan bagi pengguna untuk mencari dokter, membuat jadwal konsultasi, dan mengakses informasi kesehatan.
+# 🩺 **DocTime: Platform Layanan Kesehatan Digital**
 
-📝 Deskripsi Proyek
-Sistem ini dirancang sebagai aplikasi web statis yang mensimulasikan alur kerja platform kesehatan digital. Pengguna dapat menavigasi melalui halaman sambutan, melihat dasbor utama, mencari dokter berdasarkan spesialisasi, dan melihat antarmuka untuk penjadwalan serta konsultasi via chat.
+**DocTime** adalah prototipe **frontend aplikasi web** untuk layanan kesehatan digital.
+Tujuan proyek ini adalah menyediakan solusi **mudah, cepat, dan interaktif** bagi pengguna untuk:
 
-🚀 Fitur Utama
-Antarmuka web yang bersih dan intuitif untuk navigasi antar halaman.
+* mencari dokter sesuai spesialisasi,
+* menjadwalkan konsultasi, dan
+* mengakses informasi kesehatan melalui antarmuka web yang intuitif.
 
-Fitur pencarian dokter dengan opsi penyortiran dan filter.
+---
 
-Halaman khusus untuk penjadwalan janji temu dan simulasi obrolan (chat).
+## 📝 **Deskripsi Proyek**
 
-Desain yang informatif dengan penekanan pada kemudahan akses informasi.
+DocTime dirancang sebagai **aplikasi web statis** yang mensimulasikan alur kerja platform kesehatan digital.
+Melalui aplikasi ini, pengguna dapat:
 
-🛠️ Teknologi yang Digunakan
-Frontend: HTML5, CSS3
+* Menjelajahi halaman sambutan yang ramah pengguna.
+* Mengakses **dasbor utama** untuk melihat berbagai layanan.
+* **Mencari dokter** berdasarkan kategori atau spesialisasi tertentu.
+* **Menjadwalkan janji temu** langsung dari browser.
+* Melakukan **simulasi konsultasi melalui chat** untuk pengalaman digital yang realistis.
 
-Prinsip Desain: Flexbox untuk layout, Gradien, Desain Responsif
+> 💡 *Tujuan utama proyek ini adalah memberikan gambaran nyata tentang antarmuka dan interaksi pengguna dalam sistem layanan kesehatan berbasis web.*
 
-⚙️ Cara Menjalankan Proyek
-Clone repositori ini:
+---
 
+## 🚀 **Fitur Utama**
+
+✨ **Antarmuka yang Bersih & Intuitif**
+Navigasi yang mudah dan terstruktur untuk pengguna dari berbagai kalangan.
+
+🩻 **Fitur Pencarian Dokter**
+Cari dokter berdasarkan nama atau spesialisasi, lengkap dengan filter dan penyortiran.
+
+📅 **Penjadwalan Janji Temu**
+Halaman khusus untuk memilih waktu konsultasi secara cepat dan efisien.
+
+💬 **Simulasi Chat dengan Dokter**
+Antarmuka chat yang dirancang menyerupai layanan konsultasi digital sebenarnya.
+
+📖 **Desain Informatif & Responsif**
+Menggunakan layout **flexbox** dengan desain responsif agar nyaman diakses melalui perangkat apa pun.
+
+---
+
+## 🛠️ **Teknologi yang Digunakan**
+
+| Komponen     | Teknologi           | Deskripsi                                               |
+| ------------ | ------------------- | ------------------------------------------------------- |
+| **Frontend** | HTML5, CSS3         | Struktur dan tampilan web                               |
+| **Layout**   | Flexbox             | Mengatur elemen dengan proporsional dan responsif       |
+| **Desain**   | Gradien & Responsif | Memberikan tampilan modern dan nyaman di berbagai layar |
+
+---
+
+## ⚙️ **Cara Menjalankan Proyek**
+
+1️⃣ **Clone repositori ini:**
+
+```bash
 git clone https://github.com/your-username/DocTime.git
 cd DocTime
+```
 
-Buka Aplikasi Web:
+2️⃣ **Buka aplikasi di browser:**
+Proyek ini bersifat **statis**, tidak memerlukan server backend.
+Cukup buka salah satu file HTML langsung di browser Anda, misalnya:
 
-Proyek ini adalah web statis, tidak memerlukan server backend.
+```bash
+landingpage.html
+```
 
-Cukup buka file landingpage.html atau file HTML lainnya langsung di browser Anda.
+---
 
-📂 Struktur Folder
+## 📂 **Struktur Folder**
+
+```
 .
-landingpage.html      # Halaman awal untuk pengguna baru
-landingstyle.css      # Styling untuk halaman sambutan
-homepage.html         # Dasbor utama setelah login
-homestyle.css         # Styling untuk dasbor
-docschedule.html      # Halaman untuk membuat jadwal
-chat.html             # Halaman untuk chat dengan dokter
-chatstyles.css        # Styling untuk halaman chat
-README.md             # Dokumentasi ini
+├── landingpage.html      # Halaman awal untuk pengguna baru
+├── landingstyle.css       # Styling untuk halaman sambutan
+├── homepage.html           # Dasbor utama setelah login
+├── homestyle.css           # Styling untuk dasbor
+├── docschedule.html        # Halaman untuk membuat jadwal
+├── chat.html               # Halaman untuk chat dengan dokter
+├── chatstyles.css          # Styling untuk halaman chat
+└── README.md               # Dokumentasi proyek
+```
+
+---
+
+## 🎨 **Prinsip Desain**
+
+* **Konsistensi Visual:** Warna lembut dan gradien untuk memberikan nuansa profesional.
+* **Responsif:** Tampilan menyesuaikan dengan layar perangkat.
+* **User-Centered:** Fokus pada kemudahan navigasi dan akses informasi.
+* **Clean Layout:** Menggunakan *white space* dan *hierarchy typography* agar konten mudah dibaca.
+
+---
+
+## 👨‍💻 **Pengembang**
+
+**Nama:** [Marcellus Geraldio Florenta]
+**NIM:** [2702262816]
+**Institusi:** Universitas Bina Nusantara
+**Program Studi:** Computer Science
+**Peran:** Full Stack Developer
