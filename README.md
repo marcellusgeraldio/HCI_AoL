@@ -98,8 +98,8 @@ landingpage.html
 
 ## 👨‍💻 **Pengembang**
 
-**Nama:** [Marcellus Geraldio Florenta]
-**NIM:** [2702262816]
-**Institusi:** Universitas Bina Nusantara
-**Program Studi:** Computer Science
-**Peran:** Full Stack Developer
+**Nama:** [Marcellus Geraldio Florenta]  
+**NIM:** [2702262816]  
+**Institusi:** Universitas Bina Nusantara  
+**Program Studi:** Computer Science  
+**Peran:** Full Stack Developer  
